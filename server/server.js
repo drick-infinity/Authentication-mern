@@ -11,7 +11,9 @@ const port = process.env.PORT || 4000
 connectDB();
 
 const allowedOrigins = [
-  'http://localhost:5173',  // For local development  
+  'http://localhost:5173',
+    // For local development
+    'https://authentication-mern-nine.vercel.app'  
   // For production frontend
 ];
 
