@@ -20,7 +20,4 @@ app.use('/api/auth',authRouter);
 app.use('/api/user',userRouter);
 
 app.listen(port,()=> console.log(`Server started on PORT:${port}`));
-module.exports = (req, res) => {
-    res.status(200).send("Hello from the backend API!");
-  };
-  
+
