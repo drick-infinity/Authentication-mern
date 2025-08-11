@@ -12,8 +12,7 @@ connectDB();
 
 const allowedOrigins = [
   'http://localhost:5173',  // For local development
-  'https://authentication-mern-i694.vercel.app/',  // For production frontend
-  // Add other domains if necessary
+  'https://authentication-mern-i694.vercel.app',  // For production frontend
 ];
 
 app.use(express.json());
